@@ -12,8 +12,3 @@ Steps after cloning:
 
 ## About Project
 Inventory manangement system is in under progress
-
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
