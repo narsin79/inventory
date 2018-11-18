@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    - - - Inventory - - - 
+                   Welcome to inventoryone.com
                 </div>
 
                 <div class="links">
