@@ -22,3 +22,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'Admin\AdminController@index');
 
 Route::get('/admin/users', 'UserController@userList');
+
+Route::get('/admin/roles', 'UserPermissionController@showAllRoles');
+
+Route::get('/admin/role/create', 'UserPermissionController@createRole');
+
+Route::get('/admin/role/editRole/{id}', 'UserPermissionController@editRole');
+
+Route::post('/admin/role/submit', 'UserPermissionController@submitRole');
+
+Route::get('/admin/permissions', 'UserPermissionController@showAllPermissions');
